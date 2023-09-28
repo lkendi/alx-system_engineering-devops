@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown betty hello if ["$(whoami)" = "guillaume"]
+["$(whoami)" = "guillaume"] sudo chown betty hello
