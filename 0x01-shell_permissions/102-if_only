@@ -1,2 +1,2 @@
 #!/bin/bash
-["$(whoami)" = "guillaume"] sudo chown betty hello
+if ["$(whoami)" = "guillaume"] then sudo chown betty hello fi
