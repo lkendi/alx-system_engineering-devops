@@ -1,2 +1,2 @@
 #!/bin/bash
-tr rev
+tr 'A' 'c' | tr 'z' 'e'
