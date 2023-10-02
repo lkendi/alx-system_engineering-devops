@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq | sort | cut -d " " -f 1
+sort | uniq -u #uniq would display those with duplicates once
