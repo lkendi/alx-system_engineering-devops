@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls="rm *"
+tr 'A-Ma-mN-Zn-z' 'N-Zn-zA-Ma-m' #shift each letter by 13 positions
