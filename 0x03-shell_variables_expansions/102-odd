@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -- | cut -f1 #display 2 lines on 1, retain the first only
+paste - - | cut -f1 #display 2 lines on 1, retain the first only
