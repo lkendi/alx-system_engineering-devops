@@ -26,11 +26,11 @@ https://cmdchallenge.com/
 26. Rename all files removing the extension from them in the current directory recursively. - find . -type f -exec rename 's/\.[^.]+$//' {} + 
 27. The files in this challenge contain spaces. List all of the files (filenames only) in the current directory but replace all spaces with a '.' character. - ls | tr ' ' '.'
 
-# Steps Used to Transfer Scrrenshots from Local machine to Ubuntu Sandbox using sftp
+# Steps Used to Transfer Screenshots from Local machine to Ubuntu Sandbox using sftp
 1. Establish an sftp connection using sftp <username>@<hostname> - both username and hostname are provided on the sandbox. Enter the password (also provided on the sandbox) to gain access to the sftp command line tool
 2. Use appropriate commands to navigate to the local directory that contains the screenshots (normal bash commands but beginning with an 'l' - lcd, lpwd, lls) 
 3. Use the command 'put <filename> <remote filepath>' to send the scrrenshots to the remote Ubuntu sandbox. (use filepath instead of filename if file is not in current working directory)
 
 This is a screenshot of the command line tool as the files are being transferred:
-<img width="849" alt="image" src="https://github.com/lkendi/alx-system_engineering-devops/assets/139500082/74342b5b-8fb4-43b0-b2d8-aa046795086b">
+<img width="960" alt="sftp evidence" src="https://github.com/lkendi/alx-system_engineering-devops/assets/139500082/cfae6a1f-de04-498a-bf67-3f5e8df359e8">
 
