@@ -46,5 +46,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - 1: Bash Script that creates an RSA key pair
 - 2: Change server SSH config to refuse password authentication
 - 3: Add SSH public key to server
-- 4: Edit client config file to connect to a server without typing a password
+- 4: Create client SSH config file using Puppet to connect to a server without typing a password
   
