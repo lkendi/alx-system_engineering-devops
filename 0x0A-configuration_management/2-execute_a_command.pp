@@ -2,6 +2,6 @@
 # Must use exec Puppet resource and pkill
 
 exec {'kill_process':
-  command => 'usr/bin/pkill killmenow',
-  path    => ['usr/bin/', '/bin'],
+  command  => 'pkill killmenow',
+  provider => 'shell',
 }
