@@ -2,5 +2,4 @@
 # Script that fixes Apache config to return a page with the contents "Hello Holberton"
 
 echo "Hello Holberton" > var/www/html/index.html
-apache2ctl start
 
