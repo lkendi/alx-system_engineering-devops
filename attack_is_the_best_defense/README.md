@@ -19,3 +19,8 @@
 -   `hydra`
 -   `telnet`
 -   `docker`
+
+## Tasks
+0. Sniffing unencrypted traffic
+1. Dictionary attack
+
